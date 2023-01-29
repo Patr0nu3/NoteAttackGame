@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3764596114744788786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3764596114744788787}
+  - component: {fileID: 3764596114744788784}
+  - component: {fileID: 3764596114744788785}
+  m_Layer: 0
+  m_Name: Game Handler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3764596114744788787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764596114744788786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6898253, y: 1.4854065, z: 4.243458}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3764596114744788784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764596114744788786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d026b201319164484defc3eac43495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
+  end: {fileID: 5665081873983312499, guid: d869b71be3fbb59408b20ae29ed3eb88, type: 3}
+  source: {fileID: 0}
+  paused: 0
+  gameOver: 0
+  trophy: {fileID: 7075360968766540033, guid: 3858b46198615d64c80555c1c6438ecb, type: 3}
+  addToScore: 0
+--- !u!114 &3764596114744788785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764596114744788786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c36848703def184f9fadd0b35f764ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameHandler: {fileID: 3764596114744788786}
+  volume: {fileID: 0}
+  audio: {fileID: 24100000, guid: c1df46ac4aa711c4b8d3a643c8ef1de1, type: 2}

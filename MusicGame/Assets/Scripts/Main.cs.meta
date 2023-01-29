@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32adfb5ec78144d0191205f3efa262f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Score: {fileID: 4456142404388849686, guid: 37b366c7b30614bcc9c6b8972dae85e7, type: 3}
+  - Player: {fileID: 7715047236838467774, guid: a4865b2644b2f480d974fbd3f5024813, type: 3}
+  - BadNote: {fileID: 3428588649441876591, guid: ec8671759929b45ee805ad126731c6f8, type: 3}
+  - GoodNote: {fileID: 3065610025399661672, guid: def5643e65bf05f48838fe2edffb9c0a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
