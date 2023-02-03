@@ -1,5 +1,5 @@
 # NOTE ATTACK
-This is a 2D game created by Zhiyi Bill Liu, Evan Meyer, Emma Paterson, Sam Youkeles with unity and C#
+This is a 2D game created by Zhiyi Bill Liu, Evan Meyer, Emma Paterson, Sam Youkeles with unity and C# for CS23 Game Design at Tufts University
 
 Here is our website and trailer: https://noteattackgame.wixsite.com/note-attack
 
